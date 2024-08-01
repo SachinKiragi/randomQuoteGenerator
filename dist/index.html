@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
 </head>
 <body class="bg-orange-700">
-    <div class="w-72 flex ">
-        <div></div>
-        <div>
-            <p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure numquam exercitationem totam vitae consequatur necessitatibus quod recusandae corporis ab perspiciatis!</p>
-            <h3>Autor Name</h3>
-        </div>
+    <div class="w-fit flex absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex-col items-center">
 
-        <div></div>
+        <!-- Top white  -->
+        <div class="quoteBg rounded-t-md"></div>
+
+        <div class="  quote-container py-20 px-10 text-center text-white flex flex-col gap-8 items-center">
+
+            <div id="result" class="flex flex-col gap-5">
+                
+             </div>
+
+            <button id="btn" class="bg-white px-6 py-[0.4rem] rounded-md font-bold text-orange-600 cursor-pointer" onclick="getQuote()">Get Quote</button>
+
+        </div>
+        <!-- Bottom white -->
+        <div class="quoteBg rounded-b-md"></div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

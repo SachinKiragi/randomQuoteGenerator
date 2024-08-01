@@ -1,0 +1,29 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quote-container{
+    box-shadow:-1px 1px 20px 2px black;
+}
+
+.quoteBg{
+    background-color: white;
+    z-index: 10;
+    width: 87%;
+    height: 1.75rem;
+}
+
+.quote{
+    /* opacity: 0; */
+    letter-spacing: 0.01rem;
+    line-height: 1.65rem;
+    font-family: "poppins";
+    font-size: large;
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1s;
+}
