@@ -1,5 +1,4 @@
-// My api key api ninjas
-// MyH1I1/AI/noVIetsno/Rg==mQz81QE8MwqOtC03
+
 const result = document.getElementById('result');
 
 
